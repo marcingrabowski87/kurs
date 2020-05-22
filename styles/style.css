@@ -1,0 +1,353 @@
+/** Style globane **/
+/* Fonty oraz tekst */
+body {
+	font-family: 'Merriweather', Helvetica, sans-serif;
+}
+
+a {
+	transition: color 0.4s ease;
+}
+
+.text--light {
+	color: #777;
+}
+
+/* Style naglowkow */
+h1, h2, h3, h4 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.front-section__header {
+	font-size: 32px;
+	line-height: 42px;
+	text-transform: uppercase;
+}
+
+.header--white {
+	color: #FFF;
+}
+
+.front_section__header-icon {
+	display: block;
+	padding: 20px 0 25px 0;
+}
+
+/* Style dla gornego menu */
+.navbar {
+	background: none;
+	border: none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+	color: #FFF;
+	font-size: 26px;
+	font-family: 'Pacifico', Helvetica, sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+	font-family: 'Lato', Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #DC3522;
+}	
+
+.scrolled {
+	background: #000;
+}
+
+/* Telefon oraz ikony social */
+.phone-number {
+	font-size: 25px;
+}
+
+.social-icons-item {
+	display: inline-block;
+	font-size: 30px;
+	margin: 0 30px 0 0;
+}
+
+.social-icons-item:nth-child(4) {
+	margin: 0;
+}
+
+.social-icons-item__link {	
+	color: #FFF;
+}
+
+.social-icons-item__link:hover {	
+	color: #DC3522;
+}
+
+/* Stopka strony */
+.site-footer {
+	color: #FFF;
+	background: #000;
+}
+
+.site-footer-top {
+	padding: 0 0 40px 0;
+}
+
+.site-footer-column {
+	text-align: center;
+}
+
+.site-foooter-column-header {
+	color: #3CAF59;
+	font-size: 33px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin: 50px 0 20px 0;
+}
+
+.site-footer-bottom {
+	padding: 20px 0;
+	background: #242529;
+}
+
+.site-footer-bottom p {
+	margin-bottom: 0;
+}
+
+/* Unslider */
+.unslider-nav {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	width: 100%;
+}
+
+/* Top */
+.top {
+	background: url('../images/top.jpg') no-repeat center center;
+	padding: 150px 0;
+}
+
+@media (min-width: 992px) {
+	.top {
+		padding: 350px 0;
+	}
+}
+
+.top-content {
+	color: #FFF;
+}
+
+.top-content__header {
+	margin-bottom: 20px;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+	.top-content__header {
+		font-size: 52px;
+		line-height: 52px;		
+	}
+}
+
+
+.top-content__subheader {
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: 300;
+}
+
+.top--small {
+	padding: 75px 0;
+}
+
+@media (min-width: 992px) {
+	.top--small {
+		padding: 150px 0;
+	}
+}
+
+/* Przyciski CTA */
+.cta_button {
+	display: inline-block;
+	margin-top: 30px;
+	padding: 17px 45px;
+	background: #DC3522;
+	border-radius: 2px;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Lato', Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.cta_button:hover {
+	text-decoration: none;
+	background: #FFF;
+	color: #222;
+}
+
+.cta--secondary {
+	margin: 0;
+}
+
+.cta--secondary:hover {
+	background: #777;
+	color: #FFF;
+}
+
+/** Style strony frontowej **/
+/* Front Nasze zalety */
+.our-features {
+	padding: 60px 0;
+}
+
+@media (min-width: 992px) {
+	.our-features {
+		padding: 100px 0;
+	}
+}
+
+.our-features-single {
+	margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+	.our-features-single {
+		margin-bottom: 0;
+	}
+}
+
+.our-features__header {
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.our-features__text {
+	color: #777;
+}
+
+.our-features__icon {
+	color: #3CAF59;
+	font-size: 32px;
+	line-height: 60px;
+}
+
+/* Front Duzy obraz */
+.front-big-picture {
+	padding: 80px 0;
+	background: url('../images/tlo_paralax.jpg') fixed;
+	background-size: cover;
+}
+
+@media (min-width: 992px) {
+	.front-big-picture {
+		padding: 180px 0;
+	}
+}
+
+.front-big-picture-header {
+	color: #FFF;
+	font-size: 2.5em;	
+	font-weight: 700;
+}
+
+@media (min-width: 992px) {
+	.front-big-picture-header {
+		font-size: 4.5em;	
+	}
+}
+
+/* Front godziny otwarcia */
+.hours {
+	padding: 65px 0;
+}
+
+.hours-single-col {
+	margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+	.hours-single-col {
+		margin-bottom: 0;
+	}
+}
+
+.hours__header {
+	text-align: center;
+}
+
+.hours__item {
+	padding: 10px 0;
+	border-bottom: 1px solid;
+	font-size: 16px;
+}
+
+/* Front Wybrane opinie */
+.selected-opinions {
+	padding: 100px 0 60px 0;
+	background:  url('../images/opinions_bg.jpg') center center;
+}
+
+.selected-opinions-single {
+	padding: 30px 50px;
+	background: #FFF;
+	margin-bottom: 40px;
+}
+
+.selected-opinions-single__text {
+	margin-bottom: 0;
+	color: #999;
+	line-height: 24px;
+}
+
+.selected-opinions-single__header {
+	color: #dc3522;
+	margin-top: 20px;
+}
+
+/** Strony Ogolne style **/
+.page-content {
+	margin: 80px 0 120px 0;
+}
+
+.page-content__header {
+	margin-bottom: 20px;
+}
+
+.page-content__subheader {
+	margin-bottom: 20px;
+}
+
+.page-content__text {
+	margin-bottom: 10px;
+}
+
+.page-content__image {
+	margin: 20px 0;
+}
+
+/** Dane firmy **/
+.company-info__item {
+	font-size: 18px;
+}
+
+/** Blog **/
+.blog-list-item {
+	margin-bottom: 50px;
+}
+
+.blog-list-item__header {
+	color: #000;
+}
+.blog-list-item__header:hover {
+	text-decoration: none;
+}
