@@ -13,7 +13,10 @@ a {
 }
 
 /* Style naglowkow */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	padding: 0;
 	margin: 0;
 	font-family: 'Lato', Helvetica, sans-serif;
@@ -40,22 +43,23 @@ h1, h2, h3, h4 {
 	border: none;
 }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
 	color: #FFF;
 	font-size: 26px;
 	font-family: 'Pacifico', Helvetica, sans-serif;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
 	color: #FFF;
 	font-family: 'Lato', Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav>li>a:hover {
 	color: #DC3522;
-}	
+}
 
 .scrolled {
 	background: #000;
@@ -76,11 +80,11 @@ h1, h2, h3, h4 {
 	margin: 0;
 }
 
-.social-icons-item__link {	
+.social-icons-item__link {
 	color: #FFF;
 }
 
-.social-icons-item__link:hover {	
+.social-icons-item__link:hover {
 	color: #DC3522;
 }
 
@@ -126,13 +130,15 @@ h1, h2, h3, h4 {
 
 /* Top */
 .top {
-	background: url('../images/top.jpg') no-repeat center center;
+	background: url('../images/top_small.jpg') no-repeat center center;
 	padding: 150px 0;
 }
 
 @media (min-width: 992px) {
 	.top {
 		padding: 350px 0;
+		background: url('../images/top.jpg') no-repeat center center;
+		padding: 150px 0;
 	}
 }
 
@@ -151,7 +157,7 @@ h1, h2, h3, h4 {
 @media (min-width: 992px) {
 	.top-content__header {
 		font-size: 52px;
-		line-height: 52px;		
+		line-height: 52px;
 	}
 }
 
@@ -256,13 +262,13 @@ h1, h2, h3, h4 {
 
 .front-big-picture-header {
 	color: #FFF;
-	font-size: 2.5em;	
+	font-size: 2.5em;
 	font-weight: 700;
 }
 
 @media (min-width: 992px) {
 	.front-big-picture-header {
-		font-size: 4.5em;	
+		font-size: 4.5em;
 	}
 }
 
@@ -294,7 +300,7 @@ h1, h2, h3, h4 {
 /* Front Wybrane opinie */
 .selected-opinions {
 	padding: 100px 0 60px 0;
-	background:  url('../images/opinions_bg.jpg') center center;
+	background: url('../images/opinions_bg.jpg') center center;
 }
 
 .selected-opinions-single {
@@ -348,6 +354,7 @@ h1, h2, h3, h4 {
 .blog-list-item__header {
 	color: #000;
 }
+
 .blog-list-item__header:hover {
 	text-decoration: none;
 }
